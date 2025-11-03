@@ -1,0 +1,18 @@
+2025-11-04 06:23:34,795 - INFO - === JALANKAN DATA PIPELINE HARI INI ===
+2025-11-04 06:23:34,795 - INFO - 📡 Mulai: ambil data dari API
+2025-11-04 06:23:34,947 - INFO - ✅ Berhasil ambil 100 data
+2025-11-04 06:23:34,948 - INFO - 💾 JSON disimpan: data_pipeline/raw/posts.json
+2025-11-04 06:23:34,965 - INFO - ✅ CSV siap: data_pipeline/output/posts.csv
+2025-11-04 06:23:34,965 - INFO - 🎉 Pipeline selesai sukses!
+2025-11-04 06:24:01,308 - INFO - === JALANKAN DATA PIPELINE HARI INI ===
+2025-11-04 06:24:01,308 - INFO - 📡 Mulai: ambil data dari API
+2025-11-04 06:24:02,150 - INFO - ✅ Berhasil ambil 100 data
+2025-11-04 06:24:02,153 - INFO - 💾 JSON disimpan: data_pipeline/raw/posts.json
+2025-11-04 06:24:02,174 - INFO - ✅ CSV siap: data_pipeline/output/posts.csv
+2025-11-04 06:24:02,174 - INFO - 🎉 Pipeline selesai sukses!
+2025-11-04 06:24:15,583 - INFO - === JALANKAN DATA PIPELINE HARI INI ===
+2025-11-04 06:24:15,583 - INFO - 📡 Mulai: ambil data dari API
+2025-11-04 06:24:15,710 - INFO - ✅ Berhasil ambil 100 data
+2025-11-04 06:24:15,711 - INFO - 💾 JSON disimpan: data_pipeline/raw/posts.json
+2025-11-04 06:24:15,729 - INFO - ✅ CSV siap: data_pipeline/output/posts.csv
+2025-11-04 06:24:15,729 - INFO - 🎉 Pipeline selesai sukses!
