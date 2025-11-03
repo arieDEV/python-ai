@@ -1,0 +1,3 @@
+2025-11-04 04:03:08,267 - INFO - Mulai: parsing log SSH
+2025-11-04 04:03:08,269 - INFO - Berhasil simpan ke day05/ssh_logins.csv
+2025-11-04 04:03:08,269 - INFO - Selesai! 3 login ditemukan.
