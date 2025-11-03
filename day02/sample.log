@@ -1,0 +1,4 @@
+Mar  1 08:30:15 server sshd[1234]: Accepted password for user from 192.168.1.10 port 50432 ssh2
+Mar  1 09:15:22 server sshd[5678]: Accepted publickey for admin from 203.0.113.25 port 50433 ssh2
+Mar  1 10:01:05 server sshd[9876]: Failed password for invalid user from 198.51.100.5 port 50434 ssh2
+Mar  1 10:02:30 server sshd[2345]: Accepted password for root from 192.168.1.20 port 50435 ssh2
