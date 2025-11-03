@@ -1,0 +1,2 @@
+# Paket yang kita pakai sejauh ini
+pandas>=2.0.0
