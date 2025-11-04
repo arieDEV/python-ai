@@ -1,0 +1,6 @@
+# Jangan kirim venv, log, dsb ke image
+venv/
+__pycache__/
+*.log
+.DS_Store
+setup-*.sh
