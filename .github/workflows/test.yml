@@ -1,34 +1,24 @@
-# Nama workflow
 name: Run Tests
 
-# Kapan jalan? → setiap push atau pull request ke main
 on: [push, pull_request]
 
-# Job utama
 jobs:
   test:
-    # Jalan di mesin Linux (cepat & ringan)
     runs-on: ubuntu-latest
-
-    # Langkah-langkah (step-by-step, seperti skrip Bash)
     steps:
-      # 1. Checkout kode dari repo
       - name: 🔁 Checkout kode
         uses: actions/checkout@v4
 
-      # 2. Setup Python
-      - name: 🐍 Setup Python 3.9
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.9"
 
-      # 3. Install dependensi
       - name: 📦 Install dependensi
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4. Jalankan unit test
       - name: 🧪 Jalankan pytest
         run: |
           pytest -v
