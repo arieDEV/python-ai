@@ -19,7 +19,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r day16/requirements.txt  # ← baca dari folder day16
 
-      - name: 🧪 Jalankan pytest hanya di day16
+      - name: 🧪 Jalankan pytest hanya di day18
         run: |
-          cd day16
+          cd day18
           pytest -v
